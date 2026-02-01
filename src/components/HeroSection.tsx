@@ -21,7 +21,8 @@ export const HeroSection = () => {
                 <img 
                   src={profileImage} 
                   alt="Hari G - Profile" 
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-cover"
+                  style={{ objectPosition: 'center 15%' }}
                 />
               </div>
               {/* Decorative tech elements */}
